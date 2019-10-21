@@ -1,22 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar{
+  width: 1300px;
+  height: 56px;
+  background-color: #ffffff;
+  border-bottom:solid 1px #e2e2e2;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.Navbar .Logo{
+  width: 110px;
+  height: auto;
+}
+
+.Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Container .Title{
+  margin-top: 101px;
+  margin-bottom: 47px;
+  font-size: 23px;
+  letter-spacing: normal;
+}
+
+.Container .InputTitle{
+  margin-bottom: 6.7px;
+  width: 282px;
+  font-size: 14px;
+}
+
+input::placeholder{
+  color: #c2c2c2;
+}
+
+.Container .Input{
+  width: 282px;
+  height:42px;
+  border-radius: 3px;
+  border: solid 1px #e2e2e2;
+  margin-bottom: 21.6px;
+}
+
+.Container .FindIDPW{
+  border: none;
+  text-decoration: underline;
+  color: #a6a6a6;
+  margin: -10px 0px 0px 190px;
+}
+
+.Container .Login{
+  width: 282px;
+  height:44px;
+  border-radius: 3px;
+  box-shadow: 0 3px 10px 0 rgba(75, 116, 255, 0.6);
+  background-color: #4b74ff;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.Container .SignUp{
+  width: 282px;
+  height:44px;
+  border-radius: 3px;
+  border: solid 1px #4b74ff;
+  color: #4b74ff;
+  font-size: 14px;
+  margin-top: 13.5px;
 }
