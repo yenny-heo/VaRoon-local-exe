@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios';
 import Main from './Main';
 
-var id, password;
+let id, password;
 class App extends React.Component {
   state={
     login: false

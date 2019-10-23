@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.Navbar .Logo {
+.Logo {
     width: 110px;
     height: auto;
 }
@@ -45,7 +45,7 @@
     flex-direction: row;
     
 }
-.Container2 .Menu{
+.Menu{
     width: 235px;
     height: 731px;
     display: flex;
@@ -53,12 +53,12 @@
     align-items: center;
     background-color: #fcfcfc;
 }
-.Container2 .Menu .MenuTitle{
+.MenuTitle{
     width: 60%;
     color: #bcbcbc;
     margin-top: 42px;
 }
-.Container2 .Menu .Home{
+.Home{
     width: 67%;
     border: none;
     background-color: #fcfcfc;
@@ -68,7 +68,7 @@
     margin-top: 23px;
 }
 
-.Container2 .Menu .Others{
+.Others{
     width: 67%;
     border: none;
     background-color: #fcfcfc;
@@ -76,13 +76,13 @@
     font-size: 14px;
     margin-top: 23px;
 }
-.Container2 .Contents{
+.Contents{
     width: 100%;
     height: 731px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
 }
 
-.Container2 .Contents .Hello{
+.Hello{
     display: flex;
     flex-direction: row;
     font-size:23px;
@@ -90,7 +90,7 @@
     margin: 44px 0px 0px 51px;
 }
 
-.Container2 .Contents .Search{
+.Search{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -101,13 +101,13 @@
     margin: 20px 0px 0px 51px;
 }
 
-.Container2 .Contents .Search .SearchIcon{
+.SearchIcon{
     width: 15px;
     height: 15px;
     margin-left: 20px;
 }
 
-.Container2 .Contents .Search .SearchInput{
+.SearchInput{
     width:90%;
     height:90%;
     font-size:13px;
