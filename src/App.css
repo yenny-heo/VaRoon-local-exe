@@ -1,60 +1,61 @@
-.Navbar{
-  width: 1300px;
+.Navbar {
+  width: 100%;
   height: 56px;
   background-color: #ffffff;
-  border-bottom:solid 1px #e2e2e2;
+  border-bottom: solid 1px #e2e2e2;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Navbar .Logo{
+.Navbar .Logo {
   width: 110px;
   height: auto;
 }
 
-.Container{
+.Container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.Container .Title{
+.Container .Title {
   margin-top: 101px;
   margin-bottom: 47px;
   font-size: 23px;
   letter-spacing: normal;
 }
 
-.Container .InputTitle{
+.Container .InputTitle {
   margin-bottom: 6.7px;
   width: 282px;
   font-size: 14px;
 }
 
-input::placeholder{
+input::placeholder {
   color: #c2c2c2;
 }
 
-.Container .Input{
+.Container .Input {
   width: 282px;
-  height:42px;
+  height: 42px;
   border-radius: 3px;
   border: solid 1px #e2e2e2;
   margin-bottom: 21.6px;
 }
 
-.Container .FindIDPW{
+.Container .FindIDPW {
   border: none;
   text-decoration: underline;
   color: #a6a6a6;
   margin: -10px 0px 0px 190px;
 }
 
-.Container .Login{
+.Container .Login {
   width: 282px;
-  height:44px;
+  height: 44px;
+  border: solid 1px #4b74ff;
   border-radius: 3px;
   box-shadow: 0 3px 10px 0 rgba(75, 116, 255, 0.6);
   background-color: #4b74ff;
@@ -63,9 +64,9 @@ input::placeholder{
   margin-top: 30px;
 }
 
-.Container .SignUp{
+.Container .SignUp {
   width: 282px;
-  height:44px;
+  height: 44px;
   border-radius: 3px;
   border: solid 1px #4b74ff;
   color: #4b74ff;

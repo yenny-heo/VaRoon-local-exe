@@ -1,0 +1,116 @@
+.Navbar {
+    width: 100%;
+    height: 56px;
+    background-color: #ffffff;
+    border-bottom: solid 1px #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar .Logo {
+    width: 110px;
+    height: auto;
+}
+
+.Flag {
+    width: 47px;
+    height: 87px;
+    margin: 0 auto;
+    padding-top: 15px;
+    margin-left: 11%;
+    position: absolute;
+    background: #4b74ff;
+    color: white;
+    box-shadow: 0 -6px 6px 0 #4b74ff;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.Flag:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid white;
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+}
+
+.Container2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Container2 .Menu{
+    width: 235px;
+    height: 731px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfcfc;
+}
+.Container2 .Menu .MenuTitle{
+    width: 60%;
+    color: #bcbcbc;
+    margin-top: 42px;
+}
+.Container2 .Menu .Home{
+    width: 67%;
+    border: none;
+    background-color: #fcfcfc;
+    color: #4b74ff;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 23px;
+}
+
+.Container2 .Menu .Others{
+    width: 67%;
+    border: none;
+    background-color: #fcfcfc;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 23px;
+}
+.Container2 .Contents{
+    width: 100%;
+    height: 731px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Container2 .Contents .Hello{
+    display: flex;
+    flex-direction: row;
+    font-size:23px;
+    font-weight: 300;
+    margin: 44px 0px 0px 51px;
+}
+
+.Container2 .Contents .Search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 787px;
+    height: 43px;
+    border-radius: 60px;
+    border: solid 1px #e2e2e2;
+    margin: 20px 0px 0px 51px;
+}
+
+.Container2 .Contents .Search .SearchIcon{
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+}
+
+.Container2 .Contents .Search .SearchInput{
+    width:90%;
+    height:90%;
+    font-size:13px;
+    border:none;
+    margin-left: 20px;
+}
