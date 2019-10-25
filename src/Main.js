@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import './Main.css';
 import Popup from './Popup';
+import GameList from './GameList';
 
 class Main extends React.Component {
     state = {
@@ -46,6 +47,8 @@ class Main extends React.Component {
                             <img src="searchIcon.png" alt="search" className="SearchIcon"></img>
                             <input type="text" placeholder="VR 컨텐츠의 이름을 검색해보세요!" className="SearchInput"></input>
                         </div>
+                        <div className="GameList"> 게임 목록</div>
+                        <GameList></GameList>
                     </div>
                 </div>
                 {this.state.showPopup ?
