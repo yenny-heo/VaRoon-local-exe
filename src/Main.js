@@ -62,8 +62,6 @@ class Main extends React.Component {
         if (this.props.role !== "ROLE_Doctor" || this.state.patient !== "") {
             //측정 실행
             console.log("measure start!");
-
-
         }
         else {//팝업창 실행
             this.setState({ showPopup: !this.state.showPopup });

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Popup.css'
+import './Popup.css';
 
 let patientID;
 class Popup extends React.Component{

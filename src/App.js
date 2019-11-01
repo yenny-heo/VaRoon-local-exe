@@ -11,9 +11,11 @@ class App extends React.Component {
 
   render() {
     return (
-      this.state.login ? <Main 
-      token={this.state.token} name={this.state.name} role={this.state.role} 
-      _logout={this._logout.bind(this)}></Main> :
+      this.state.login ?
+       <Main 
+       token={this.state.token} name={this.state.name} role={this.state.role} 
+       _logout={this._logout.bind(this)}></Main> 
+      :
       <div>
         <div className="Navbar">
           <img src="logo.png" alt='logo' className="Logo"></img>
@@ -24,12 +26,15 @@ class App extends React.Component {
           <input type="text" placeholder="   아이디를 입력하세요" onChange={(e)=>{id=e.target.value;}} className="Input"></input>
           <p className="InputTitle">Password</p>
           <input type="password" placeholder="   비밀번호를 입력하세요" onChange={(e)=>{password=e.target.value;}} className="Input"></input>
-          <button className="FindIDPW">아이디/비밀번호 찾기</button>
+          <button onClick={this._linkToSignup} className="FindIDPW">아이디/비밀번호 찾기</button>
           <button onClick={this._loginAuth} className="Login">로그인</button>
-          <button className="SignUp">회원가입</button>
+          <button onClick={this._linkToSignup} className="SignUp">회원가입</button>
         </div>
       </div>
     );
+  }
+  _linkToSignup = () => {
+    window.open('http://varoon.s3-website.ap-northeast-2.amazonaws.com/loginManager', '_blank',"width=1600, height=1080");
   }
   _loginAuth = () => {
     if (id === undefined || id === "" || password === undefined || password === "") {
